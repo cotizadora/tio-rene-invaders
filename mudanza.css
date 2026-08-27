@@ -1,0 +1,40 @@
+/* Pagina de mudanza del enlace viejo. Sin dependencias, como el juego. */
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(circle at 50% 40%, #0f7f3f 0%, #0b6b36 55%, #084d27 100%);
+  color: #fff;
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  text-align: center;
+}
+
+main { max-width: 30em; }
+
+h1 {
+  margin: 0 0 14px;
+  font-size: clamp(22px, 6vw, 34px);
+  letter-spacing: 2px;
+  color: #ffe36b;
+}
+
+.aviso { margin: 0 0 6px; font-size: clamp(15px, 4vw, 18px); }
+.tenue { margin: 0 0 18px; color: #d8ffe6; }
+.chico { margin-top: 16px; font-size: 12px; }
+
+.boton {
+  display: inline-block;
+  min-height: 48px;
+  padding: 13px 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #06210f;
+  background: #fff4d6;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.boton:hover { background: #fff; }
